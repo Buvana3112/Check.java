@@ -2,6 +2,7 @@ import java.util.*;
 class Repeat{
     public static void main(String args[]){
         Scanner s=new Scanner(System.in);
+        int a=s.nextInt();
         String a=s.nextLine();
         Set<Integer> treeSet = new TreeSet<>();
         char[] b=a.toCharArray();
